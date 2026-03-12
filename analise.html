@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Análise do Site Atual - Badauê</title>
+    <meta
+      name="description"
+      content="Diagnóstico do site atual em WordPress: gargalos de performance, limitações de escalabilidade e recomendações para a nova base."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111111'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-family='Arial' font-size='28' fill='%23fff7f2'%3EB%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="eyebrow">
+          <span>Mídia & Agência Criativa</span>
+          <span>Diagnóstico da base atual</span>
+        </div>
+        <div class="site-header__bar">
+          <a class="site-logo" href="./index.html" aria-label="Badauê">
+            <span class="site-logo__mark">Badauê</span>
+          </a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            Menu
+          </button>
+          <nav id="site-nav" class="site-nav" aria-label="Principal">
+            <a href="./index.html">Home</a>
+            <a href="./analise.html">Análise</a>
+            <a href="./orcamento.html">Orçamento</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero hero--inner">
+          <div class="hero__copy">
+            <p class="section-kicker">Raio-x do WordPress atual</p>
+            <h1>
+              A base atual
+              <span>segura a operação</span>
+              mas trava crescimento, velocidade e autonomia.
+            </h1>
+            <p class="hero__lede">
+              O problema não é só conteúdo desatualizado. A lentidão e a fragilidade vêm da combinação entre
+              WordPress, Elementor, plugins, carrosséis e imagens pesadas.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="./orcamento.html">Ver orçamento</a>
+              <a class="button button--ghost" href="#evidencias">Ver evidências</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__intro">
+            <p class="section-kicker">Síntese</p>
+            <h2>O WordPress atual funciona como remendo acumulado, não como plataforma pronta para escalar.</h2>
+          </div>
+          <div class="entry-grid">
+            <article class="entry-card entry-card--accent">
+              <p class="entry-card__index">01</p>
+              <h3>Peso estrutural</h3>
+              <p>O carregamento está sendo pressionado por tema, Elementor, plugins, sliders, pop-ups e scripts de terceiros.</p>
+            </article>
+            <article class="entry-card">
+              <p class="entry-card__index">02</p>
+              <h3>Baixa previsibilidade</h3>
+              <p>Mais dependências significam mais risco de conflito visual, bugs de atualização e instabilidade operacional.</p>
+            </article>
+            <article class="entry-card">
+              <p class="entry-card__index">03</p>
+              <h3>Escalabilidade limitada</h3>
+              <p>Novas abas, campanhas, LPs e reorganizações exigem retrabalho em vez de reaproveitamento estrutural.</p>
+            </article>
+            <article class="entry-card">
+              <p class="entry-card__index">04</p>
+              <h3>Autonomia reduzida</h3>
+              <p>A gestão de conteúdo depende demais da lógica do construtor e de ajustes técnicos indiretos.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="evidencias">
+          <div class="section__intro section__intro--split">
+            <div>
+              <p class="section-kicker">Evidências práticas</p>
+              <h2>Os prints reforçam o que já aparece na auditoria técnica: a experiência perde força justamente no canal mais importante, o mobile.</h2>
+            </div>
+          </div>
+          <div class="audit-grid">
+            <article class="audit-card audit-card--spotlight">
+              <div class="audit-card__media">
+                <img src="./assets/lighthouse-mobile.svg" alt="Print de Lighthouse mobile com nota 31" />
+              </div>
+              <div class="audit-card__content">
+                <p class="section-kicker">Celular</p>
+                <h3>31 em desempenho</h3>
+                <p>Esse cenário afeta descoberta, permanência, navegação e conversão. É justamente onde a plataforma precisa ser mais ágil.</p>
+              </div>
+            </article>
+            <article class="audit-card">
+              <div class="audit-card__media">
+                <img src="./assets/lighthouse-desktop.svg" alt="Print de Lighthouse desktop com nota 58" />
+              </div>
+              <div class="audit-card__content">
+                <p class="section-kicker">Computador</p>
+                <h3>58 em desempenho</h3>
+                <p>No desktop a situação melhora, mas ainda indica uma base pesada para o volume de conteúdo exibido.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__intro">
+            <p class="section-kicker">Principais causas</p>
+            <h2>O gargalo não nasce de um único problema. Ele é resultado da soma de várias camadas competindo entre si.</h2>
+          </div>
+          <div class="problem-list">
+            <article class="problem-item">
+              <span>Arquitetura pesada</span>
+              <p>WordPress + Elementor + plugins + recursos de marketing e automações tornam a primeira renderização mais custosa.</p>
+            </article>
+            <article class="problem-item">
+              <span>Excesso de componentes dinâmicos</span>
+              <p>Carrosséis, pop-ups, grids filtrados e blocos carregados por widget aumentam complexidade e degradam manutenção.</p>
+            </article>
+            <article class="problem-item">
+              <span>Dependência de plugins</span>
+              <p>Cada nova demanda tende a adicionar mais uma dependência, em vez de fortalecer um sistema estável e previsível.</p>
+            </article>
+            <article class="problem-item">
+              <span>Imagens fora do formato ideal</span>
+              <p>Para a nova base performar melhor, a equipe precisa enviar imagens já preparadas em <strong>AVIF</strong> sempre que possível.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="education-panel">
+            <div class="education-panel__copy">
+              <p class="section-kicker">Recomendação objetiva</p>
+              <h2>Não recomendamos manter o WordPress como base principal da próxima fase.</h2>
+              <p>
+                Além do peso gerado pela combinação com Elementor e plugins, a arquitetura atual limita a escalabilidade e aumenta
+                o risco de instabilidades. A reconstrução resolve isso pela raiz.
+              </p>
+            </div>
+            <div class="education-panel__stack">
+              <article class="paper-card">
+                <p class="paper-card__meta">Infraestrutura</p>
+                <h3>Código limpo, CMS próprio e menos dependências.</h3>
+              </article>
+              <article class="paper-card paper-card--alt">
+                <p class="paper-card__meta">Assets</p>
+                <h3>Pipeline de imagem com preferência por AVIF para acelerar carregamento.</h3>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__brand">
+          <p class="site-footer__title">O redesign não é só visual. Ele corrige a base que está freando a plataforma.</p>
+          <p>
+            A proposta nova reduz atrito técnico, melhora desempenho e organiza a experiência para crescer com mais autonomia.
+          </p>
+        </div>
+        <div class="site-footer__columns">
+          <div>
+            <p class="site-footer__label">Próximos passos</p>
+            <a href="./orcamento.html">Ver orçamento</a>
+            <a href="./index.html">Voltar para a home</a>
+          </div>
+          <div>
+            <p class="site-footer__label">Ponto de atenção</p>
+            <span>Enviar imagens em AVIF</span>
+            <span>Priorizar estrutura sem plugins pesados</span>
+          </div>
+          <div>
+            <p class="site-footer__label">Status</p>
+            <span>Diagnóstico conceitual</span>
+            <span id="year"></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

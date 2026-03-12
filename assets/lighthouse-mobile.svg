@@ -1,0 +1,36 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="32" fill="#F5F5F5"/>
+  <rect x="68" y="70" width="42" height="42" rx="21" fill="#D8ECFF"/>
+  <circle cx="89" cy="91" r="10" fill="#6DB7FF"/>
+  <path d="M89 81L94 96L79 91L89 81Z" fill="#3E6EFF"/>
+  <text x="130" y="100" fill="#1F1F1F" font-family="Arial, sans-serif" font-size="32" font-weight="600">Diagnosticar problemas de desempenho</text>
+  <text x="500" y="54" fill="#377DF2" font-family="Arial, sans-serif" font-size="30">📱 Celular</text>
+  <text x="630" y="54" fill="#6B6B6B" font-family="Arial, sans-serif" font-size="30">💻 Computador</text>
+  <rect x="66" y="136" width="1068" height="684" rx="16" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="2"/>
+  <circle cx="370" cy="210" r="28" fill="#FBE9E8" stroke="#FF3A34" stroke-width="6"/>
+  <text x="352" y="220" fill="#D81D15" font-family="Arial, sans-serif" font-size="28">31</text>
+  <circle cx="510" cy="210" r="28" fill="#FFF4E8" stroke="#F6A32B" stroke-width="6"/>
+  <text x="492" y="220" fill="#D16600" font-family="Arial, sans-serif" font-size="28">84</text>
+  <circle cx="650" cy="210" r="28" fill="#E9F8EE" stroke="#19C15D" stroke-width="6"/>
+  <text x="627" y="220" fill="#129442" font-family="Arial, sans-serif" font-size="28">100</text>
+  <circle cx="790" cy="210" r="28" fill="#E9F8EE" stroke="#19C15D" stroke-width="6"/>
+  <text x="767" y="220" fill="#129442" font-family="Arial, sans-serif" font-size="28">100</text>
+  <text x="325" y="278" fill="#303030" font-family="Arial, sans-serif" font-size="26">Desempenho</text>
+  <text x="457" y="278" fill="#303030" font-family="Arial, sans-serif" font-size="26">Acessibilidade</text>
+  <text x="620" y="278" fill="#303030" font-family="Arial, sans-serif" font-size="26">Práticas</text>
+  <text x="623" y="315" fill="#303030" font-family="Arial, sans-serif" font-size="26">recomendadas</text>
+  <text x="774" y="278" fill="#303030" font-family="Arial, sans-serif" font-size="26">SEO</text>
+  <line x1="78" y1="340" x2="1120" y2="340" stroke="#D9D9D9" stroke-width="2"/>
+  <circle cx="315" cy="560" r="110" fill="#F8E5E5"/>
+  <path d="M315 450A110 110 0 0 1 394 633" stroke="#FF3A34" stroke-width="12" stroke-linecap="round"/>
+  <text x="286" y="575" fill="#FF3A34" font-family="Arial, sans-serif" font-size="56">31</text>
+  <text x="215" y="705" fill="#222222" font-family="Arial, sans-serif" font-size="42">Desempenho</text>
+  <text x="110" y="770" fill="#666666" font-family="Arial, sans-serif" font-size="24">Os valores são estimados e podem variar.</text>
+  <rect x="790" y="465" width="160" height="286" rx="6" fill="#FAFAFA" stroke="#D2D2D2" stroke-width="2"/>
+  <rect x="808" y="504" width="124" height="20" fill="#FFFFFF"/>
+  <text x="834" y="530" fill="#111111" font-family="Arial, sans-serif" font-size="18" font-weight="700">BADAUÊ</text>
+  <rect x="808" y="538" width="124" height="72" rx="8" fill="#5C94C6"/>
+  <rect x="808" y="622" width="124" height="82" rx="8" fill="#223341"/>
+  <circle cx="920" cy="688" r="18" fill="#2BD664"/>
+  <text x="842" y="790" fill="#7A7A7A" font-family="Arial, sans-serif" font-size="18">Abrir visualização</text>
+</svg>
