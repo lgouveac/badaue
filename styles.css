@@ -87,7 +87,7 @@ a {
 }
 
 .site-logo__mark {
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(1.5rem, 2.8vw, 2.4rem);
   font-weight: 800;
   line-height: 0.9;
   letter-spacing: -0.06em;
@@ -133,7 +133,7 @@ a {
 .hero {
   width: min(calc(100% - 32px), var(--max-width));
   margin: 28px auto 0;
-  padding: 36px;
+  padding: 30px;
   background: linear-gradient(135deg, rgba(255, 251, 245, 0.95), rgba(244, 233, 221, 0.92));
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: var(--radius-lg);
@@ -149,8 +149,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 24px;
-  max-width: 760px;
+  gap: 18px;
+  max-width: 680px;
 }
 
 .hero__visual--stacked {
@@ -175,8 +175,8 @@ a {
 
 .hero h1 {
   max-width: 12ch;
-  font-size: clamp(3rem, 7vw, 6rem);
-  line-height: 0.92;
+  font-size: clamp(2.2rem, 4.8vw, 4rem);
+  line-height: 0.98;
 }
 
 .hero h1 span {
@@ -195,8 +195,8 @@ a {
 .site-footer p,
 .impact-card li,
 .metrics__grid span {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 0.95rem;
+  line-height: 1.5;
   color: var(--text-muted);
 }
 
@@ -408,7 +408,7 @@ a {
 }
 
 .section {
-  padding: 92px 0 0;
+  padding: 72px 0 0;
 }
 
 .accent-inline {
@@ -428,8 +428,8 @@ a {
 .education-panel__copy h2,
 .cta-band h2 {
   max-width: 14ch;
-  font-size: clamp(2.2rem, 4.5vw, 4rem);
-  line-height: 0.95;
+  font-size: clamp(1.7rem, 3vw, 2.7rem);
+  line-height: 1.02;
 }
 
 .section__intro--split,
@@ -464,8 +464,8 @@ a {
 .entry-card h3,
 .metrics__grid strong {
   margin: 0 0 12px;
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 1.2rem;
+  line-height: 1.1;
   letter-spacing: -0.04em;
 }
 
@@ -519,8 +519,8 @@ a {
 .quote-panel p {
   margin: 0;
   max-width: 18ch;
-  font-size: clamp(1.6rem, 2.4vw, 2.5rem);
-  line-height: 0.98;
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  line-height: 1.04;
   letter-spacing: -0.04em;
 }
 
@@ -558,7 +558,7 @@ a {
 }
 
 .editorial-card h3 {
-  font-size: clamp(1.3rem, 2.6vw, 2.8rem);
+  font-size: clamp(1.15rem, 1.8vw, 1.7rem);
 }
 
 .metrics {
@@ -630,7 +630,7 @@ a {
 }
 
 .artist-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .education-panel {
@@ -664,7 +664,7 @@ a {
 
 .paper-card h3 {
   max-width: 11ch;
-  font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+  font-size: clamp(1.2rem, 1.9vw, 1.8rem);
 }
 
 .cta-band {
@@ -681,6 +681,7 @@ a {
   grid-template-columns: 1.2fr 1fr;
   gap: 56px;
   padding: 40px 48px;
+  margin-top: 56px;
   margin-bottom: 32px;
   background: linear-gradient(180deg, #180707 0%, #0f0505 100%);
   color: #fff7f2;
@@ -693,8 +694,8 @@ a {
 }
 
 .site-footer__title {
-  font-size: clamp(2rem, 4vw, 3.6rem);
-  line-height: 0.96;
+  font-size: clamp(1.5rem, 2.6vw, 2.4rem);
+  line-height: 1.02;
 }
 
 .site-footer__columns {
