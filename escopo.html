@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escopo - Badauê</title>
+    <meta
+      name="description"
+      content="Escopo do novo site da Badauê: páginas, CMS, checkout, criador de landing pages e limites do projeto."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111111'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-family='Arial' font-size='28' fill='%23fff7f2'%3EB%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="eyebrow">
+          <span>Mídia & Agência Criativa</span>
+          <span>Escopo do projeto</span>
+        </div>
+        <div class="site-header__bar">
+          <a class="site-logo" href="./index.html" aria-label="Badauê">
+            <span class="site-logo__mark">Badauê</span>
+          </a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            Menu
+          </button>
+          <nav id="site-nav" class="site-nav" aria-label="Principal">
+            <a href="./index.html">Home</a>
+            <a href="./escopo.html">Escopo</a>
+            <a href="./analise.html">Análise</a>
+            <a href="./orcamento.html">Orçamento</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero hero--inner">
+          <div class="hero__copy">
+            <p class="section-kicker">Escopo</p>
+            <h1>
+              O novo site terá
+              <span>páginas fixas, CMS completo</span>
+              e autonomia real para o time da Badauê.
+            </h1>
+            <p class="hero__lede">
+              A proposta inclui uma base nova com conteúdo totalmente editável, checkout simplificado e um criador
+              de landing pages para campanhas futuras.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="./orcamento.html">Ver orçamento</a>
+              <a class="button button--ghost" href="#disclaimer">Ver limites do projeto</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__intro">
+            <p class="section-kicker">Páginas fixas</p>
+            <h2>Essas são as áreas principais que continuam existindo como páginas estruturais do site.</h2>
+          </div>
+          <div class="entry-grid">
+            <article class="entry-card"><h3>Home</h3></article>
+            <article class="entry-card"><h3>Projetos</h3></article>
+            <article class="entry-card"><h3>Marcas</h3></article>
+            <article class="entry-card"><h3>Sobre / A Badauê</h3></article>
+            <article class="entry-card"><h3>Contato</h3></article>
+            <article class="entry-card"><h3>Orçamento</h3></article>
+            <article class="entry-card"><h3>Trabalhe na Badauê</h3></article>
+            <article class="entry-card"><h3>Links</h3></article>
+            <article class="entry-card"><h3>Política de Privacidade</h3></article>
+            <article class="entry-card"><h3>Termos de Uso</h3></article>
+            <article class="entry-card"><h3>Contrato do Artista</h3></article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__intro">
+            <p class="section-kicker">CMS</p>
+            <h2>Todo o conteúdo operacional e editorial que precisa de atualização recorrente ficará no CMS.</h2>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <h2>Áreas CMS</h2>
+              <ul class="scope-list">
+                <li>Blog / Conteúdos com categoria + rich text</li>
+                <li>Projetos / Cases</li>
+                <li>Marcas</li>
+                <li>Artistas</li>
+                <li>Educação</li>
+                <li>Produtos</li>
+                <li>Checkout</li>
+                <li>Landing Pages</li>
+                <li>Vagas e oportunidades</li>
+                <li>Formulários e confirmações</li>
+                <li>Banners e destaques da home</li>
+              </ul>
+            </article>
+            <article class="pricing-card pricing-card--featured">
+              <h2>O que o time poderá editar</h2>
+              <ul class="scope-list">
+                <li>Textos</li>
+                <li>Imagens</li>
+                <li>Destaques da home</li>
+                <li>Posts e artigos</li>
+                <li>Cases</li>
+                <li>Páginas de artistas</li>
+                <li>Produtos</li>
+                <li>Conteúdos de educação</li>
+                <li>Landing pages a partir de modelos</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__intro">
+            <p class="section-kicker">Checkout</p>
+            <h2>O checkout será simples e funcional, pensado para vender sem adicionar complexidade desnecessária.</h2>
+          </div>
+          <div class="problem-list">
+            <article class="problem-item">
+              <span>Upload de imagem</span>
+              <p>O time poderá subir a imagem do produto ou material diretamente no CMS.</p>
+            </article>
+            <article class="problem-item">
+              <span>Link de pagamento Stripe</span>
+              <p>O checkout usará link de pagamento do Stripe, sem desenvolvimento de fluxo transacional complexo.</p>
+            </article>
+            <article class="problem-item">
+              <span>Sem envio de e-mail</span>
+              <p>O projeto não inclui automação de e-mails nem disparos automáticos relacionados ao checkout.</p>
+            </article>
+            <article class="problem-item">
+              <span>Mais leveza operacional</span>
+              <p>A ideia é facilitar gestão e conversão, sem acoplar integrações desnecessárias nesta etapa.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="education-panel">
+            <div class="education-panel__copy">
+              <p class="section-kicker">Landing page builder</p>
+              <h2>O projeto inclui um criador de landing pages baseado em modelos prontos.</h2>
+              <p>
+                O time escolhe um modelo e, a partir dele, consegue criar novas landings para campanhas, lançamentos,
+                relatórios e ações comerciais sem depender de desenvolvimento a cada nova demanda.
+              </p>
+            </div>
+            <div class="education-panel__stack">
+              <article class="paper-card">
+                <p class="paper-card__meta">Incluído</p>
+                <h3>CMS completo para edição de texto e imagem.</h3>
+              </article>
+              <article class="paper-card paper-card--alt">
+                <p class="paper-card__meta">Incluído</p>
+                <h3>Criador de landing pages a partir de modelos.</h3>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="disclaimer">
+          <div class="section__intro">
+            <p class="section-kicker">Disclaimer</p>
+            <h2>O projeto entrega o site funcional, mas alguns itens ficam fora do escopo desta proposta.</h2>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <h2>O projeto não inclui</h2>
+              <ul class="scope-list">
+                <li>Automações</li>
+                <li>Edições de imagem, exceto conversão para AVIF</li>
+                <li>Manutenção contínua</li>
+                <li>Edição de vídeo</li>
+                <li>SEO avançado</li>
+                <li>Integrações com sistemas externos</li>
+              </ul>
+              <p>
+                Após 60 dias da entrega, qualquer correção ou manutenção necessária deverá ser orçada separadamente.
+              </p>
+            </article>
+            <article class="pricing-card pricing-card--featured">
+              <h2>O projeto inclui</h2>
+              <ul class="scope-list">
+                <li>Criação do novo site funcional</li>
+                <li>CMS para edição de conteúdo e imagens</li>
+                <li>Conversão técnica de imagens para AVIF</li>
+                <li>Implementação das tags de Analytics e Clarity</li>
+                <li>Estrutura de landing pages com modelos reutilizáveis</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__brand">
+          <p class="site-footer__title">O escopo foi pensado para dar autonomia sem inflar a complexidade do projeto.</p>
+          <p>
+            A proposta entrega uma base editável, comercialmente útil e preparada para expansão futura com menos
+            retrabalho.
+          </p>
+        </div>
+        <div class="site-footer__columns">
+          <div>
+            <p class="site-footer__label">Navegação</p>
+            <a href="./index.html">Home</a>
+            <a href="./analise.html">Análise</a>
+            <a href="./orcamento.html">Orçamento</a>
+          </div>
+          <div>
+            <p class="site-footer__label">Inclui</p>
+            <span>CMS completo</span>
+            <span>Landing page builder</span>
+            <span>Conversão para AVIF</span>
+          </div>
+          <div>
+            <p class="site-footer__label">Não inclui</p>
+            <span>Automações</span>
+            <span>Integrações externas</span>
+            <span>Manutenção contínua</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
